@@ -1,0 +1,25 @@
+{
+  "name": "cli-cal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/long": "^5.0.0",
+    "fk-data-protocol": "github:fieldkit/data-protocol",
+    "lodash": "^4.17.21",
+    "long": "^5.2.1",
+    "ml-levenberg-marquardt": "^4.1.0",
+    "protobufjs": "^7.1.2",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5"
+  }
+}

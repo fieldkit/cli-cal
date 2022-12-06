@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "declaration": true,
+        "outDir": "./target",
+        "strict": false, 
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": false,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true,
+        "baseUrl": "./",
+        "types": [
+            "node",
+	        "long"
+        ],
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "removeComments": false,
+        "lib": [
+            "dom",
+            "es2017"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "main.ts"
+    ]
+}
