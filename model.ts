@@ -35,15 +35,12 @@ export class PendingCalibrationPoint {
 }
 
 export class PendingCalibration {
-  constructor(
-    private readonly moduleId: string,
-    public readonly points: PendingCalibrationPoint[] = []
-  ) {}
+  constructor(public readonly points: PendingCalibrationPoint[] = []) {}
 
   public append(pcp: PendingCalibrationPoint): PendingCalibration {
     const newPoints = _.clone(this.points);
     newPoints[pcp.index] = pcp;
-    return new PendingCalibration(this.moduleId, newPoints);
+    return new PendingCalibration(newPoints);
   }
 }
 
